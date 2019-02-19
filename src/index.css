@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.listContainer {
+	padding-bottom: 8.75vh;
+}
+
+.detailsImg {
+	height: auto;
+	float: left;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.listImg {
+	display: inline-block;
+	height: 5vh;
+	border-radius: 5px;
+	vertical-align: middle;
+}
+
+.listDiv {
+	height: 6vh;
+	border-bottom: 1px solid rgb(202, 201, 201);
+	line-height: 6vh;
+	vertical-align: middle;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.listDiv:hover {
+	background-color: rgb(241, 242, 243);
+}
+
+.titleDiv {
+	line-height: 6vh;
+	margin-top: 10px;
+}
+
+.descHeading {
+	font-weight: bold;
+}
+
+.songTitle {
+	font-size: 1.3em;
+	font-weight: bold;
+	display: inline;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.title {
+	vertical-align: middle;
+	padding-left: 10px;
+	line-height: 10vh;
+}
+
+.selected {
+	color: rgb(205, 245, 247);
+}
+
+.fa-pause-circle,
+.fa-chevron-right,
+.fa-chevron-left,
+.fa-play-circle,
+.fa-random {
+	background-color: transparent;
+	border: none;
+	vertical-align: middle;
+}
+
+.shuffle {
+	float: right;
+	margin-right: 20px;
+	vertical-align: middle;
+	line-height: 9vh;
+}
+
+.home {
+	vertical-align: middle;
+	float: right;
+	line-height: 10vh;
+	margin-right: 20px;
+}
+
+.footer {
+	position: fixed;
+	padding-left: 20px;
+	left: 0px;
+	bottom: 0px;
+	height: 9vh;
+	line-height: 9vh;
+	width: 100vw;
+	background-color: rgb(199, 197, 197);
+}
+
+.header {
+	background-color: rgb(199, 197, 197);
+	max-height: 10vh;
+	line-height: 10vh;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.currentlyPlaying {
+	background-color: rgb(195, 241, 245);
+}
+
+.currentlyPlaying:hover {
+	background-color: rgb(195, 241, 245);
+}
+
+img {
+	max-width: 100%;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	vertical-align: middle;
+}
+
+a:link, 
+a:visited {
+	color: black;
+}
+
+*:hover,
+*:focus {
+	outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .listImg {
+        display: none;
+	}
+
+	.descHeading {
+		display: none;
+	}
+	
+	.fa-pause-circle,
+	.fa-play-circle {
+		font-size: 1.6em
+	}
+}
